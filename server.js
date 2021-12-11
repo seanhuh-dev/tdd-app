@@ -15,6 +15,13 @@ app.use(express.json()); /* bodyParser - req.body */
 const productRoutes = require("./routes");
 app.use("/api/products", productRoutes);
 
+// 에러 핸들러
+app.use((err, req, res, next) => {
+  res.status(500).json({ message: err.message });
+});
+
 app.listen(PORT, () => {
   console.log(`Running on port ${PORT}`);
 });
+
+module.exports = app;
