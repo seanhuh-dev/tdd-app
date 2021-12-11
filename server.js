@@ -1,6 +1,13 @@
 const express = require("express");
 const PORT = 6000;
+const mongoose = require("mongoose");
 
+mongoose
+  .connect(
+    "mongodb+srv://admin:1234@cluster0.c23yq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+  )
+  .then(() => console.log("MongoDB Connected..."))
+  .catch((err) => console.error(err));
 const app = express();
 app.use(express.json()); /* bodyParser - req.body */
 
