@@ -1,0 +1,29 @@
+{
+  "name": "tdd-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanhuh-dev/tdd-app.git"
+  },
+  "author": "seanhuh-dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanhuh-dev/tdd-app/issues"
+  },
+  "homepage": "https://github.com/seanhuh-dev/tdd-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.4",
+    "node-mocks-http": "^1.11.0",
+    "prettier": "^2.5.1",
+    "supertest": "^6.1.6"
+  }
+}
