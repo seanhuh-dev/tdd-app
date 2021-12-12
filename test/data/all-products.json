@@ -1,0 +1,27 @@
+[
+  {
+    "name": "롱패딩",
+    "description": "구스다운",
+    "price": "450000"
+  },
+  {
+    "name": "장갑",
+    "description": "따뜻하고 스마트폰 터치도 가능",
+    "price": "15000"
+  },
+  {
+    "name": "핫팩",
+    "description": "따뜻하고 12시간 지속",
+    "price": "1000"
+  },
+  {
+    "name": "귀도리",
+    "description": "따뜻하고 귀여움",
+    "price": "35000"
+  },
+  {
+    "name": "두꺼운 양말",
+    "description": "따뜻하고 촉감이 좋음",
+    "price": "7500"
+  }
+]
